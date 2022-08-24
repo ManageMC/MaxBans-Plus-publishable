@@ -9,9 +9,9 @@
     <version>2.0</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <!-- <maven.compiler.release>1.8</maven.compiler.release> -->
     </properties>
 
     <dependencies>
@@ -51,13 +51,6 @@
             <groupId>io.sentry</groupId>
             <artifactId>sentry</artifactId>
             <version>1.7.5</version>
-        </dependency>
-
-        <!-- bStats Metrics -->
-        <dependency>
-            <groupId>org.bstats</groupId>
-            <artifactId>bstats-bukkit</artifactId>
-            <version>1.7</version>
         </dependency>
 
         <!-- Apache Commons CSV for GeoLite Parsing -->
